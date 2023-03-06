@@ -1,0 +1,23 @@
+.TH internsctl
+.SH NAME
+internsctl \- command to display cpu and memory information
+.SH SYNOPSIS
+.B internsctl
+[cpu|memory] getinfo
+.YS
+.SH DESCRIPTION
+This is a custom command which does only 2 things. It either prints inforamtion about cpu if argument is 'cpu getinfo' or it prints information about memory(RAM and SWAP space) if argument is 'memory getinfo'
+.SH ARGUMENTS
+.TP
+.BR cpu
+Print information about cpu.
+.TP
+.BR memory
+Print status of free memory.
+.SH OPTIONS
+.TP
+.BR --help
+Print help
+.TP
+.BR --version
+Print software version
